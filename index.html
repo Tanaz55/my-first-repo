@@ -2,10 +2,147 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
 </head>
 <body>
+    <header class="header">
+        <a href="#" class="logo"><img src="images/ph-logo.jpg" alt="Logo"></a>
+        
+        <nav class="navbar">
+            <a href="#portfolio">Portfolio</a>
+            <a href="#about">About Me</a>
+            <a href="#experience">Experience</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Welcome to My <span>Photography</span> Portfolio</h1>
+            <p>Capturing the beauty of moments, one shot at a time. Explore my work and let's create something amazing together.</p>
+            <div class="btn-box">
+                <button class="btn-1">View Gallery</button>
+                <button class="btn-2">Book a Session</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="img-box">
+            <img src="images/photographer.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span> Me </span></h2>
+            <p>I'm a passionate photographer with an eye for capturing timeless moments. My work blends creativity, emotion, and storytelling to bring images to life. From portraits to landscapes, I strive to make every shot meaningful. Let's turn fleeting moments into lasting memories.</p>
+            <!--<a href="#" class="btn-2">Experience</a>-->
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <h2 class="heading">My <span>Experience</span></h2>
     
+        <div class="experience-container">
+    
+            <div class="experience-box">
+                <h3>Photography Intern</h3>
+                <p>Worked at IIUC Photography Club, as organizing and logistic exicutive.</p>
+                <span class="exp-duration">June 2022 - December 2022</span>
+            </div>
+    
+            <div class="experience-box">
+                <h3>Organizing & Logistic Secretary</h3>
+                <p>As the Organizing & Logistic Secretary of IIUC photography club, I coordinated events, managed logistics, and ensured seamless execution of photography projects. I handled scheduling, equipment management, and collaborated with teams to bring creative ideas to life. This experience honed my leadership, planning, and problem-solving skills in a dynamic environment.</p>
+                <span class="exp-duration">January 2023 - October 2024</span>
+            </div>
+    
+    
+            <div class="experience-box">
+                <h3>Vice President</h3>
+                <p>As a Vice President of IIUC photography club, I led creative initiatives, organized events, and mentored aspiring photographers. My experience in coordination and team management has sharpened my leadership and organizational skills. With a passion for capturing moments, I specialize in [portrait, landscape, or street photography], blending creativity with technical expertise.</p>
+                <span class="exp-duration">January 2025 - Present</span>
+            </div>
+    
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <h2 class="heading">My <span>Gallery</span></h2>
+    
+        <div class="gallery-container">
+    
+            <div class="gallery-box">
+                <img src="images/Food.jpg" alt="Food Photography">
+                <div class="gallery-info">
+                    <h4>Food Photography</h4>
+                    <p>Bringing flavors to life through my lens, I capture the essence of every dish with rich colors, textures, and lighting that make food look as delicious as it tastes. My food photography blends creativity with precision, highlighting the artistry behind every meal.</p>
+                </div>
+            </div>
+    
+            <div class="gallery-box">
+                <img src="images/home-decor.jpg" alt="decor">
+                <div class="gallery-info">
+                    <h4>Home-Decoration Photography</h4>
+                    <p>My home decoration photography captures the essence of comfort and style, blending vibrant colors with minimalist touches to create a welcoming atmosphere. It’s all about showcasing personal touches and the beauty of space through a lens.</p>
+                </div>
+            </div>
+    
+            <div class="gallery-box">
+                <img src="images/Street_Photography.jpg" alt="Street_Photography">
+                <div class="gallery-info">
+                    <h4>Street_Photography</h4>
+                    <p>My street photography captures the raw, unfiltered moments of everyday life. I focus on the fleeting interactions and subtle details that often go unnoticed, revealing the beauty in the ordinary.</p>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Education</span></h2>
+    
+        <div class="education-container">
+    
+            <div class="education-box">
+                <h3>Bachelor's Degree in Photography</h3>
+                <p>International Islamic university of Chittagong</p>
+                <span class="edu-duration">2023 - Present</span>
+                <p class="edu-details">Graduated with honors.A comprehensive understanding of technical skills, history, theory and focus on specific skills or techniques.</p>
+            </div>
+    
+            <div class="education-box">
+                <h3>Online Course</h3>
+                <p>IIUCPS Photography Society</p>
+                <span class="edu-duration">2022 - 2023</span>
+                <p class="edu-details">Photography courses on various topics, from basic techniques to advanced editing and artistic approaches</p>
+            </div>
+    
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <div class="contact-container">
+            <form action="#" method="POST" class="contact-form">
+                <input type="text" placeholder="Your Name" class="contact-input" required>
+                <input type="email" placeholder="Your Email" class="contact-input" required>
+                <textarea placeholder="Your Message" class="contact-input" rows="6" required></textarea>
+                <button type="submit" class="btn-1">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <h3>Let's Get In Touch!</h3>
+                <p>If you have any questions or would like to collaborate, feel free to send me a message!</p>
+                <div class="contact-icons">
+                    <a href="mailto:wasia@example.com" class="contact-icon"><i class='bx bx-envelope'></i></a>
+                    <a href="https://www.facebook.com" class="contact-icon"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.twitter.com" class="contact-icon"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
